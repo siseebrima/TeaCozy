@@ -102,6 +102,8 @@ ul li {
 .copyright {
   text-align: left;
   margin-left: 20px;
+  position: fixed;
+  bottom: 0;
 }
 
 footer .footer_main {
