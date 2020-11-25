@@ -24,21 +24,25 @@ body {
 
   grid-template-columns: 1fr 1fr 1fr;
   /* grid-gap: 1rem; */
-  column-gap: 1rem;
-  row-gap: 1rem;
+  /* column-gap: 1rem;
+  row-gap: 1rem; */
+  gap: 1rem;
 }
 
 header {
-  display: grid;
+  display: flex;
   /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-gap: 1rem; */
   /* justify-items: ; */
   margin-bottom: 25px;
   background-color: rgba(241, 139, 63, 0.75);
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 ul {
   width: 400px;
+  justify-self: end;
 }
 ul li {
   display: inline-block;
